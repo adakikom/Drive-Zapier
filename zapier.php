@@ -11,4 +11,6 @@ echo "IZENA: ".$_REQUEST['IZENA'];
 
 file_put_contents($fitxategia, "EMAIL: ".$_REQUEST['EMAIL']." - IZENA: ".$_REQUEST['IZENA']."\n\n", FILE_APPEND | LOCK_EX);
 
+echo "***";
+
 ?>
